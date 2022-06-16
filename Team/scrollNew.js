@@ -71,19 +71,18 @@ function showMember(count)
         count = member.length - 1 - 4 + flag;
 
     } 
-    console.log("counts");
-    console.log(count);
+   
     const item1= member[count];
    
     let nextcount1 = setcount(count);
-    console.log(nextcount1);
+   
     const item2= member[nextcount1];
     let nextcount2 = setcount(nextcount1);
-    console.log(nextcount2);
+    
     const item3= member[nextcount2];
 
     let nextcount3= setcount(nextcount2);
-    console.log(nextcount3);
+   
     const item4= member[nextcount3];
    
     imageSrc[0].src = item1.image;
@@ -132,6 +131,6 @@ nextbtn.addEventListener("click", function()
             flag=0;
          }
      }
-     console.log(count);
+  
      showMember(count);
 });
