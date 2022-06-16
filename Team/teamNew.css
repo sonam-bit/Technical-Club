@@ -6,7 +6,7 @@ body, html{
     font-weight: 700;
     line-height: 1.6;
     /*I have added this to compensate the Footer Background, but you can also use BOOTSTRAP 4*/
-    background: rgba(231, 221, 221, 0.4);
+    background: linear-gradient(black,transparent),url(solen-feyissa-O2Wds3OSb60-unsplash.jpg);
     color: white ;
 }
 /*Navbar Transparency*/
@@ -29,7 +29,7 @@ body, html{
 }
 
 .pimg1{
-  background-image: linear-gradient(grey, transparent),url(background.jpg);
+  background-image:linear-gradient(black,transparent),url(solen-feyissa-O2Wds3OSb60-unsplash.jpg);
   min-height: 100%;
 }
 
