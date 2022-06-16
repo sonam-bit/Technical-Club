@@ -1,0 +1,259 @@
+body, html{
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    /*I have added this to compensate the Footer Background, but you can also use BOOTSTRAP 4*/
+    background: rgba(231, 221, 221, 0.4);
+    color: white ;
+}
+/*Navbar Transparency*/
+.navbar{
+    background-color:  rgba(231, 221, 221, 0.4);
+    border: 0px;
+    color:#fa5b3d ;
+}
+#active{
+    color: black;
+}
+
+#navbarSupportedContent ul li a {
+    text-transform: uppercase;
+    color: #fa5b3d;
+}
+#navbarSupportedContent ul li a:hover{
+    color:  black;
+    transition: 0.38s linear;
+}
+
+.pimg1{
+  background-image: linear-gradient(grey, transparent),url(background.jpg);
+  min-height: 100%;
+}
+
+.pimg1,.pimg2{
+	position: relative;
+	opacity: 1;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+#Core{
+  margin: 20px;
+  padding: 5px;
+}
+
+h1{
+  font-family: 'Dancing Script',cursive,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: #fa5b3d;
+  
+}
+
+.title-h1{
+margin-top: 100px; 
+margin-bottom: 100px;
+}
+.member,.memberRev{
+  margin : 10px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+
+}
+.profile, .quote, .profileRev{
+  display: flex;
+  align-items: center;
+ 
+
+}
+.memberRev{
+  flex-direction: row-reverse;
+}
+.profileRev{
+  flex-direction: row-reverse;
+
+}
+
+.title-image{
+  height: 206px;
+  width: 209px;
+  border-radius: 50%;
+}
+
+.slides{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.eachMember{
+max-width: 18%;
+}
+.prevbutton, .nextbutton{
+ color: rgb(252, 79, 2);
+}
+
+#public-relation, #resourcemangement, #founding-member, #eventorganising{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.rolling-img{
+  border-radius: 100%;
+}
+.eachCoordinator{
+  display: inline-block;
+  margin:40px;
+}
+.button{
+  display: inline-block;
+  position: relative;
+  top: 120px;
+  margin:10px;
+  cursor: pointer;
+}
+.button :hover{
+  color: white;
+}
+
+#coordinator, #finance, #eventOrganising, #resourceMangement{
+  display: flex;
+  justify-content: center;
+  
+}
+.space{
+  padding:80px;
+}
+.nameText{
+  padding:20px;
+}
+
+hr.style-two {
+    border: 0;
+    height: 2.5px;
+    background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+    max-width: 45%;
+  }
+  
+/*Team text and Camera Picture*/
+#dark{
+    background-color: rgba(231, 221, 221, 0.4);
+}
+
+
+#row1{
+    padding-top: 22%;
+    padding-left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+#row1 .col-lg-12 .display-1 {
+    color: #f4f4f4;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#row1 .col-lg-12 .display-1 span{
+    letter-spacing: 15px;
+}
+/*Team Home page Ends here*/
+
+
+/*Mountain.png file at the bottom of starting Page*/
+.top-section-mountains{
+    position: absolute; 
+    bottom: 0%; left: 0%; 
+    width: 100%;
+}
+.top-section-mountains img{
+    max-width: 100%;
+    height: auto;
+    position: absolute; 
+    bottom: 0%;
+}
+
+
+  .content-header{
+    font-family: Satisfy;
+    font-size:50px;
+    text-align:center;
+    color: rgb(252, 79, 2);
+    
+    padding-top: 90px
+  }
+
+ 
+
+
+
+
+
+
+/*Fixed buttons at right side*/
+#fixed-Btn {
+  position: fixed;
+  top: 27%;
+  right: -43.7%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#fixed-Btn a{
+  background: transparent;
+  cursor: pointer;
+  width: 80px;
+  height: 65px;
+  font-size: 26px;
+  background-color: #11111180;
+  border: 0px solid #11111180;
+  margin-top: 1px;
+  transition: all 0.3s;
+  
+}
+
+#fixed-Btn a i{
+  color: white;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-left: 29px;
+}
+
+#fixed-Btn a:hover{
+  background-color: #00000080;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+    #fixed-Btn a:hover #fbt{
+        color: #3b5998;
+        transition: all 0.3s;
+    }
+    #fixed-Btn a:hover #igt{
+        color: #E1306C;
+        transition: all 0.3s;
+    }
+    #fixed-Btn a:hover #ght{
+        color: white;
+        transition: all 0.3s;
+    }
+    #fixed-Btn a:hover #lkt{
+        color: #0e76a8;
+        transition: all 0.3s;
+    }
+    #fixed-Btn a:hover #ytt{
+        color: #ff0000;
+        transition: all 0.3s;
+    }
+/*Fixed Buttons End here*/
+

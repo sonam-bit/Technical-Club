@@ -1,0 +1,259 @@
+/*ADD BELOW TWO ELEMNTS TO FIX THE FOOTER AT BOTTOM*/
+html, body{
+    height: 100%;
+}
+.page-wrapper{
+    height: 100%;
+}
+/*ADD ABOVE TWO ELEMNTS TO FIX THE FOOTER AT BOTTOM*/
+
+
+/*Footer Content Starts here*/
+
+/*hr tag*/
+hr.style-two-s {
+    border: 0;
+    height: 1.25px;
+    background-image: linear-gradient(to right, rgba(252, 79, 2, 0), rgba(252, 79, 2, 0.75), rgba(252, 79, 2, 0));
+    max-width: 100%;
+}
+
+.footer {
+    background: rgb(17, 17, 17);
+    color: #f4f4f4;
+    height: 460px; /*420 = 350 + 70 */
+    position: relative;
+}
+
+/*Credit Section in Footer*/
+.footer .footer-bottom {
+    background: black;
+    color: #686868;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+/*Content, links, Suggestion Box in Footer*/
+.footer .footer-content {
+    /*  border: 1px solid red;  */
+        height: 390px;
+        display: flex;
+    }
+    
+/*All the Sections Inside Content*/
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 25px;
+/*  border: 1px solid white;  */
+}
+
+.footer .footer-content h1, 
+.footer .footer-content h2 {
+    color: rgb(252, 79, 2);
+}
+
+.footer .footer-content .about h1 span {
+    color: #f4f4f4;
+   
+}
+
+.footer .footer-content p {
+    padding-top: 1px;
+    padding-bottom: 5px;
+    color: #686868;
+    text-align: justify;
+}
+
+.footer .footer-content .about .footer-contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: rgba(252, 252, 252, 0.8);
+}
+
+.footer .footer-content .about .footer-contact span a{
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.6);
+}
+.footer .footer-content .about .footer-contact span a:hover{
+    text-decoration: none;
+    color: rgb(252, 79, 2);
+    transition: all 0.3s ease-in-out;
+}
+/*Social logo here*/
+.footer .footer-content .about .social a {
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    margin-top: 10px;
+    padding-top: 3px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color: rgba(252, 252, 252, 0.8);
+}
+
+.footer .footer-content .about .social #fb:hover {
+    border: 1px solid rgb(17, 17, 17);
+    background-color: #3b5998;
+    transition: all 0.3s ease-in-out;
+}
+.footer .footer-content .about .social #ig:hover {
+    border: 1px solid rgb(17, 17, 17);
+    background-image: linear-gradient(#405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    transition: all 0.3s ease-in-out;
+}
+.footer .footer-content .about .social #gh:hover {
+    border: 1px solid rgb(17, 17, 17);
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+.footer .footer-content .about .social #lk:hover {
+    border: 1px solid rgb(17, 17, 17);
+    background-color:  #0e76a8;
+    transition: all 0.3s ease-in-out;
+}
+/*Social logo ENDS here */
+
+/* Links here*/
+.footer .footer-content .links ul a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.6);
+    width: 22.5%;
+}
+
+.footer .footer-content .links ul a:hover {
+    text-decoration: underline;
+    color: rgb(252, 79, 2);
+    margin-left: 15px;
+    transition: all 0.4s;
+}
+/* Links END here*/
+
+/* Notifications here*/
+.footer .footer-content .notification .contact-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background: black;
+    border: 0px;
+    border-left: 2px solid rgb(252, 79, 2);
+    width: 50%;
+}
+
+/*  .footer .footer-content .notification .contact-input:focus{
+    
+}  */
+
+.footer .footer-content .notification ::placeholder{
+    color: rgba(252, 252, 252, 0.6);
+    padding-left: 7px;
+}
+/* Notifications ENDS here*/
+
+/* Submit Button here*/
+#contactSubmitButton1{
+    margin-top: 8px;
+    width: 50%;
+    height: 30px;
+    background: rgb(252, 79, 2);
+    border: 2px solid rgb(252, 79, 2);
+}
+
+#contactSubmitButton1:hover {
+    border: 2px solid rgb(252, 79, 2);
+    background: black;
+    transition: all 0.3s ease;
+}
+/* Submit Button ENDS here*/
+
+
+/*Scroll to Top btn text*/
+#topBtn-p{
+    position: fixed;
+    bottom: 200px;
+    right: 37px;
+    padding-bottom: 20px;
+    writing-mode: vertical-rl;
+    display: inline;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+}
+
+.btr-float::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    bottom: 100px;
+    right: 65px;
+}
+/*Scroll to Top btn text Ends here*/
+
+
+@media screen and (max-width: 1080px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 12px;
+        
+        padding: 20px;
+        
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 12px;
+        
+        padding: 20px;
+        
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 6px;
+    }
+
+    ul {
+        padding-inline-start: 25px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer .footer-content .footer-section {
+       /* width: 100%; */
+        font-size: 12px;
+        
+        padding: 20px;
+        
+    }
+
+    .footer .footer-content .about .social a {
+        padding-top: 7px;
+    }
+
+    ul {
+        padding-inline-start: 20px;
+    }
+}

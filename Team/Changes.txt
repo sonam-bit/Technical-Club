@@ -1,0 +1,27 @@
+(Sonam Kumari , 20-09-21)
+
+Changes made :
+
+>> Changes in Post wrt given Excel sheet
+
+  Name              current post       
+Yash Maynak Modi : Financing head     
+Ajit Kumar       : Treasurer   
+Kumar Mangalam   : Vice President
+Vaibhav Kumar    : Web-Master
+
+>>Public Relation
+   previous   : 3 members -> alignment: col-lg-4 md-4 sm-12
+   current    : 2 members -> alignment: col-lg-6 md-6 sm-12
+>>Finance row 
+   1) financing head : aligned in the centre (col-lg-12)
+   2) financer       : removed       
+
+>>Coordinator row
+   Row 5, 6, 7 : removed  
+
+>>Photos 
+  1Current     : updated with the new photos of the members
+  3Freshi(2k20): New folder consisting of photos of new coordinaters.
+
+ 
