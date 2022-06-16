@@ -53,7 +53,12 @@ const member = [{
 ,{
     image : "Team/Photos/3Freshi(2K20)/Rohan_Kumar.jpg",
     name1 : "Rohan Prasad"
-}];
+}
+         ,{
+    image : "Team/Photos/3Freshi(2K20)/Siddharth_Singh.jpg",
+    name1 : "Siddharth Singh"
+}
+               ];
 
 window.addEventListener("DOMContentLoaded", function()
 {
