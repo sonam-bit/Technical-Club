@@ -88,14 +88,6 @@ margin-bottom: 100px;
   border-radius: 50%;
 }
 
-.slides{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
 .eachMember{
 max-width: 18%;
 }
@@ -106,6 +98,18 @@ max-width: 18%;
 #public-relation, #resourcemangement, #founding-member, #eventorganising{
   margin-left: 20%;
   margin-right: 20%;
+}
+@media screen and (max-width: 998px) {
+  
+      .space{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+      }
+    
+  
 }
 .rolling-img{
   border-radius: 100%;
